@@ -1,0 +1,11 @@
+
+.nav{background-color:#2C3E50;padding: 20px;transition: all 0.2s;position: fixed; width: 100%;top: 30; z-index: 99;box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;}
+.test {font-size:16px;color: #fff !important;font-weight: bold;margin: 20px;}
+.navb {display: flex;justify-content: end;align-items: end;width: 100%;padding: 10px;}
+.cf{font-size: 32px;color: #fff !important;font-weight: bold;}
+.active:focus{ background-color:#1ABC9C ;width: 200px;height: 200px;padding: 8px;border-radius:  10px;}
+@media only screen and (max-width: 600px) {.cf{font-size: 20px;}
+.navb{display: flex;justify-content: space-between;align-items: center ;}
+.test {margin:40px;}.active:focus{padding:0px 30px;border-radius: 30%;}
+}
+

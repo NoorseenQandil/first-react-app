@@ -1,0 +1,5 @@
+.bg{background-color: #1ABC9C;height:95vh;width: 99.6vw; padding:60px; padding-top: 95px;}
+.contant1{width: 90px ;height:5px;background-color: #fff;}
+.contant2{color: #fff;}
+.contant3{width: 90px ;height:5px;background-color: #fff;padding: 0;}
+@media only screen and (max-width: 600px){.colum{flex-direction: column;}}
